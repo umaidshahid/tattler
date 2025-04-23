@@ -19,6 +19,6 @@ This is a simple Discord bot that notifies a selected text channel whenever some
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/voice-notifier-bot.git
-cd voice-notifier-bot
-pip install -r requirements.txt
+git clone https://github.com/umaidshahid/tattler.git
+cd tattler
+pip install discord.py
