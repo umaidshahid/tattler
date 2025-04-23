@@ -51,4 +51,4 @@ async def on_voice_state_update(member, before, after):
         if channel and after.channel and before.channel != after.channel:
             await channel.send(f"🔔 **{member.display_name}** joined **{after.channel.name}**")
 
-bot.run("MTM2NDMzODQ1MTY3NTIxNzk3MA.GKcQqn.QqnyFLt7xIic0xtjX-FZ11a4cQL4weMxUOHVMI")
+bot.run("TOKEN_GOES_HERE")
